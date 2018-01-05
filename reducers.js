@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import * as actionTypes from '../actions';
+import * as actionTypes from './actions';
 
 export const adsResults = (state = [], action) => {
   switch (action.type) {
