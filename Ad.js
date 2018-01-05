@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
-import { getAds, addAds, delAds, updateAds } from '../actions';
-import { combineData } from '../reducers';
+import { getAds, addAds, delAds, updateAds } from './actions';
+import { combineData } from './reducers';
 
 class Ad extends Component {
   AddAd = () => {
